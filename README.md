@@ -1,64 +1,64 @@
 # 📈 YouTube Analytics – Ciudad Viva con Omar
 
-Análisis de datos del canal de YouTube **Ciudad Viva con Omar**, con foco exclusivo en el comportamiento del canal durante el año **2025**. Este proyecto combina herramientas de Business Intelligence, visualización de datos y análisis exploratorio para extraer insights accionables y escalar el crecimiento del canal.
+Data analysis of the **Ciudad Viva con Omar** YouTube channel, focusing exclusively on the channel’s behavior during **2025**. This project leverages Business Intelligence tools, data visualization, and exploratory analysis to extract actionable insights and scale the channel’s growth.
 
 ---
 
-## 🧠 Objetivo del Proyecto
+## 🧠 Project Objective
 
-Identificar los factores que impulsaron el crecimiento de la audiencia y suscriptores del canal, a partir de datos reales (vidIQ y CSVs internos), y proponer una estrategia de contenido optimizada para los próximos meses.
-
----
-
-## 🛠️ Herramientas Utilizadas
-
-- **Python**: Pandas · NumPy · Matplotlib · Seaborn
-- **Jupyter Notebook**: Análisis exploratorio y visualizaciones
-- **vidIQ + CSV**: Datos de videos, vistas, likes, títulos, y más
-- **Tableau (externo)**: Dashboards complementarios (si aplica)
-- **Git/GitHub**: Versionamiento y documentación
+Identify the key drivers behind audience and subscriber growth using real data (vidIQ exports and internal CSVs), and propose an optimized content strategy for the upcoming months.
 
 ---
 
-## 🧭 Tabla de Contenido
+## 🛠️ Tools Used
 
-- [2️⃣ Carga de librerías](#2️⃣-Carga-de-librerías)
-- [3️⃣ Carga de datos – vidIQ](#3️⃣-Carga-de-datos-–-vidIQ)
-- [4️⃣ Exploración de estructura de datos](#4️⃣-Exploración-de-estructura-de-datos)
-- [5️⃣ Limpieza y transformación de datos](#5️⃣-Limpieza-y-transformación-de-datos)
-- [6️⃣ Análisis exploratorio general](#6️⃣-Análisis-exploratorio-general)
-- [7️⃣ Temporal: vistas y suscripciones](#7️⃣-Temporal-vistas-y-suscripciones)
-- [8️⃣ Geografía y demografía](#8️⃣-Geografía-y-demografía)
-- [9️⃣ Duración y rendimiento](#9️⃣-Duración-y-rendimiento)
-- [🔟 Engagement y crecimiento](#🔟-Engagement-y-crecimiento)
-- [🧠 Conclusión + Estrategia](#🧠-Conclusión--Estrategia)
+- **Python**: Pandas · NumPy · Matplotlib · Seaborn  
+- **Jupyter Notebook**: Exploratory analysis and visualizations  
+- **vidIQ + CSV**: Video-level data including views, likes, titles, and more  
+- **Tableau (external)**: Complementary dashboards (if applicable)  
+- **Git/GitHub**: Version control and documentation  
 
 ---
 
-## 🔍 Principales Hallazgos
+## 🧭 Table of Contents
 
-- Los **temas fronterizos y migratorios** dominan en vistas y engagement.
-- **Títulos emocionales** como “la cruda realidad” o “gringos ilegales” funcionan excepcionalmente.
-- El **formato largo (15–25 min)** tiene mejor retención e interacción.
-- Audiencia principal entre **25–54 años** en **México (Tijuana, CDMX)** y **EE.UU. (LA, San Diego)**.
-
----
-
-## 🚀 Recomendaciones Estratégicas
-
-✅ Mantener enfoque en **realidad fronteriza y social**  
-✅ Usar **SEO emocional** en los títulos (pregunta, revelación, contraste)  
-✅ Llamados a la acción claros en los primeros 15 segundos  
-✅ Shorts para reforzar, no como base  
-✅ Crear miniseries con secuelas de videos exitosos  
-✅ Segmentar contenido por ciudad y formato
+- [2️⃣ Library Imports](#2️⃣-Library-Imports)
+- [3️⃣ Data Load – vidIQ](#3️⃣-Data-Load-–-vidIQ)
+- [4️⃣ Data Structure Exploration](#4️⃣-Data-Structure-Exploration)
+- [5️⃣ Data Cleaning and Transformation](#5️⃣-Data-Cleaning-and-Transformation)
+- [6️⃣ Exploratory Data Analysis (EDA)](#6️⃣-Exploratory-Data-Analysis-EDA)
+- [7️⃣ Time Series – Views and Subscribers](#7️⃣-Time-Series-–-Views-and-Subscribers)
+- [8️⃣ Geography and Demographics](#8️⃣-Geography-and-Demographics)
+- [9️⃣ Video Duration and Performance](#9️⃣-Video-Duration-and-Performance)
+- [🔟 Engagement and Growth](#🔟-Engagement-and-Growth)
+- [🧠 Final Insights + Strategy](#🧠-Final-Insights--Strategy)
 
 ---
 
-## 📂 Estructura del Repositorio
+## 🔍 Key Insights
+
+- **Border and migration-related topics** drive the highest views and engagement.
+- **Emotional titles** like “the harsh truth” or “illegal gringos” perform exceptionally well.
+- **Long-form videos (15–25 minutes)** show the best retention and interaction rates.
+- Core audience: aged **25–54**, based in **Mexico (Tijuana, CDMX)** and the **U.S. (LA, San Diego)**.
+
+---
+
+## 🚀 Strategic Recommendations
+
+✅ Keep focus on **border reality and social contrast**  
+✅ Use **emotional SEO** in titles (questions, revelations, tension)  
+✅ Strong **call to action** in the first 15 seconds  
+✅ Use Shorts for reach, but keep long-form as the main format  
+✅ Create video series or sequels based on top-performing content  
+✅ Segment content by city and video format  
+
+---
+
+## 📂 Repository Structure
 
 ```bash
-📁 data/              # Archivos .csv de vidIQ y otros
-📁 notebooks/         # Notebook Jupyter con el análisis principal
-📁 src/               # Scripts auxiliares (si aplica)
-📄 README.md          # Descripción general del proyecto
+📁 data/              # Raw .csv files (vidIQ and others)
+📁 notebooks/         # Main analysis notebook (Jupyter)
+📁 src/               # Python helper scripts (if applicable)
+📄 README.md          # Project description and documentation
