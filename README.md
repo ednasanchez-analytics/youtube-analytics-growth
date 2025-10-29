@@ -1,64 +1,85 @@
-# 📈 YouTube Analytics – Ciudad Viva con Omar
+# 🎬 YouTube Analytics – Ciudad Viva con Omar  
 
-Data analysis of the **Ciudad Viva con Omar** YouTube channel, focusing exclusively on the channel’s behavior during **2025**. This project leverages Business Intelligence tools, data visualization, and exploratory analysis to extract actionable insights and scale the channel’s growth.
-
----
-
-## 🧠 Project Objective
-
-Identify the key drivers behind audience and subscriber growth using real data (vidIQ exports and internal CSVs), and propose an optimized content strategy for the upcoming months.
+**Author:** [Edna Sánchez Woolfolk](https://ednasanchez-analytics.github.io/)  
+**Role:** MBA | Strategic Data Analyst | Storytelling & Business Intelligence  
+**Date:** October 2025  
+**Tools:** Python · Pandas · Matplotlib · Seaborn · Jupyter Notebook  
 
 ---
 
-## 🛠️ Tools Used
+## 📖 Project Overview  
+This project analyzes real **YouTube Analytics data** from *Ciudad Viva con Omar*, focusing on identifying what types of content generate the highest engagement, retention, and growth.  
 
-- **Python**: Pandas · NumPy · Matplotlib · Seaborn  
-- **Jupyter Notebook**: Exploratory analysis and visualizations  
-- **vidIQ + CSV**: Video-level data including views, likes, titles, and more  
-- **Tableau (external)**: Complementary dashboards (if applicable)  
-- **Git/GitHub**: Version control and documentation  
+The goal is to turn complex performance data into **clear insights and strategic actions** for content optimization — bridging storytelling and analytics.  
 
 ---
 
-## 🧭 Table of Contents
-
-- [2️⃣ Library Imports](#2️⃣-Library-Imports)
-- [3️⃣ Data Load – vidIQ](#3️⃣-Data-Load-–-vidIQ)
-- [4️⃣ Data Structure Exploration](#4️⃣-Data-Structure-Exploration)
-- [5️⃣ Data Cleaning and Transformation](#5️⃣-Data-Cleaning-and-Transformation)
-- [6️⃣ Exploratory Data Analysis (EDA)](#6️⃣-Exploratory-Data-Analysis-EDA)
-- [7️⃣ Time Series – Views and Subscribers](#7️⃣-Time-Series-–-Views-and-Subscribers)
-- [8️⃣ Geography and Demographics](#8️⃣-Geography-and-Demographics)
-- [9️⃣ Video Duration and Performance](#9️⃣-Video-Duration-and-Performance)
-- [🔟 Engagement and Growth](#🔟-Engagement-and-Growth)
-- [🧠 Final Insights + Strategy](#🧠-Final-Insights--Strategy)
+## 🎯 Objectives  
+- Understand which videos drive higher **CTR, retention, and views**.  
+- Identify content patterns that correlate with **audience growth**.  
+- Demonstrate analytical and visualization skills using Python.  
+- Translate data findings into **actionable storytelling insights**.
 
 ---
 
-## 🔍 Key Insights
-
-- **Border and migration-related topics** drive the highest views and engagement.
-- **Emotional titles** like “the harsh truth” or “illegal gringos” perform exceptionally well.
-- **Long-form videos (15–25 minutes)** show the best retention and interaction rates.
-- Core audience: aged **25–54**, based in **Mexico (Tijuana, CDMX)** and the **U.S. (LA, San Diego)**.
-
----
-
-## 🚀 Strategic Recommendations
-
-✅ Keep focus on **border reality and social contrast**  
-✅ Use **emotional SEO** in titles (questions, revelations, tension)  
-✅ Strong **call to action** in the first 15 seconds  
-✅ Use Shorts for reach, but keep long-form as the main format  
-✅ Create video series or sequels based on top-performing content  
-✅ Segment content by city and video format  
+## 🧰 Tools & Skills Demonstrated  
+| Category | Tools / Skills |
+|-----------|----------------|
+| Data Analysis | Python, Pandas, Numpy |
+| Visualization | Matplotlib, Seaborn |
+| Documentation | Jupyter Notebook, Markdown |
+| Storytelling | Business Insights, Strategic Reporting |
+| Domain Knowledge | YouTube Analytics, Digital Growth, BI |
 
 ---
 
-## 📂 Repository Structure
+## 🔍 Workflow  
 
-```bash
-📁 data/              # Raw .csv files (vidIQ and others)
-📁 notebooks/         # Main analysis notebook (Jupyter)
-📁 src/               # Python helper scripts (if applicable)
-📄 README.md          # Project description and documentation
+1. **Data Import & Cleaning**  
+   - Loaded the CSV exported directly from YouTube Studio.  
+   - Checked data types, removed null values, and standardized columns.  
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Summary statistics of views, likes, watch time, CTR, retention.  
+   - Correlation between metrics (CTR vs. views, retention vs. duration).  
+
+3. **Visualization & Insights**  
+   - 📊 *Bar Chart:* Total views by video title.  
+   - 🔹 *Scatter Plot:* CTR vs. Retention – understanding viewer engagement.  
+   - 🕒 *Line Chart:* Evolution of views over time (if available).  
+
+4. **Conclusions & Recommendations**  
+   - Videos combining **emotional storytelling + strong visuals** achieved the highest CTR (8–10%) and retention (50–56%).  
+   - Optimal video duration: **8–10 minutes**.  
+   - Titles with contrast and curiosity outperform purely descriptive titles.  
+   - Insights will guide upcoming series (“Tras los Muros” and future docu-episodes).  
+
+---
+
+## 📈 Key Findings  
+
+| Metric | Best Performing Videos | Insight |
+|--------|-------------------------|----------|
+| CTR % | “La Comida de Tijuana” & “Vancouver vs Hastings” | Eye-catching thumbnails and emotional context boost engagement. |
+| Retention % | 50–56% average | Balanced pacing and narrative depth retain audiences. |
+| Views | 250k–310k range | Documentary storytelling and local cultural themes perform best. |
+
+---
+
+## 💡 Conclusions  
+
+This analysis demonstrates how **data analytics and storytelling** complement each other to drive growth.  
+By analyzing performance trends, we can optimize editorial planning, thumbnails, and narrative tone — turning intuition into measurable strategy.
+
+> *“The story behind the numbers is what turns data into growth.”*  
+
+---
+
+## 🚀 Next Steps  
+- Automate the dashboard in **Power BI** for real-time tracking.  
+- Expand analysis to audience demographics (age, location, device).  
+- Build a predictive model for CTR based on content variables.
+
+---
+
+## 📂 Repository Structure  
